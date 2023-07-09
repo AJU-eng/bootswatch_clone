@@ -17,9 +17,9 @@ h1 {
 
   background-size: cover;
   background-repeat: no-repeat;
-  height: 850px;
-  margin-top: -300px;
-  padding-top: 350px;
+  height: 600px;
+  margin-top: 0px;
+  padding-top: 90px;
   text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 48px;
@@ -36,6 +36,10 @@ h1 {
 @media only screen and (max-width: 478px) {
   h1 {
     font-size: 32px;
+  }
+
+  .hello {
+    margin-left: 2px;
   }
 
   .section2 {
@@ -55,14 +59,14 @@ h1 {
 }
 
 .img_main {
-  margin-top: -650px;
+  margin-top: -750px;
   height: 100px;
   width: 138px;
 }
 
 .f_p {
   /* color: black; */
-  margin-top: -300px;
+  margin-top: -343px;
   font-size: 12px;
 }
 
@@ -162,4 +166,8 @@ h1 {
 
 .tog {
   margin-left: -6px;
+}
+
+.hello {
+  margin-left: 60px;
 }
