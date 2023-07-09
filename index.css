@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@600&family=Open+Sans:wght@400;500&family=Poppins:wght@500;600;700;800&family=Roboto+Condensed:wght@700&display=swap");
+
+.nav {
+  background-color: transparent;
+  /* position: fixed; */
+}
+
+.logo {
+  height: 40px;
+  width: 180px;
+}
+
+.section1,
+h1 {
+  background-image: url("https://bootswatch.com/_assets/img/splash.svg"),
+    linear-gradient(145deg, #375ee3 0%, #6543e0 80%);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 850px;
+  margin-top: -300px;
+  padding-top: 350px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  color: #ffff;
+}
+
+.section2 {
+  height: 700px;
+  background-size: cover;
+  padding-top: 50px;
+  background-color: #eaf1f1;
+}
+/*-----Media Screeen-----------------------------------*/
+@media only screen and (max-width: 478px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .section2 {
+    height: 2000px;
+  }
+
+  .templates {
+    margin-top: 40px;
+  }
+
+  .spl_templates {
+  }
+
+  .Section4 {
+    margin-top: 10px;
+  }
+}
+
+.img_main {
+  margin-top: -650px;
+  height: 100px;
+  width: 138px;
+}
+
+.f_p {
+  /* color: black; */
+  margin-top: -300px;
+  font-size: 12px;
+}
+
+.b1 {
+  height: 80px;
+  width: 80px;
+  background-image: linear-gradient(145deg, #375ee3 0%, #6543e0 80%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  padding-top: 17px;
+  margin-top: 50px;
+}
+
+.Cards {
+  background-color: #eaf1f1;
+
+  border: none;
+  /* width: 200px; */
+  color: #212529;
+}
+
+.card-head {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+}
+
+.card-texts {
+  font-size: 16px;
+}
+
+.section3 {
+  height: 3000px;
+  background-size: cover;
+  padding-top: 80px;
+  /* margin-left: 20px; */
+}
+
+.templates {
+  margin-top: 80px;
+}
+
+.mentos {
+  display: flex;
+  justify-content: center;
+}
+
+.card-colors {
+  background-color: #eaf1f1;
+}
+
+.spl_templates {
+  margin-top: 80px;
+}
+
+.temp_head {
+  font-size: 28px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: rgb(73, 80, 87);
+}
+
+.Section4 {
+  margin-top: 1400px;
+  height: 1000px;
+}
+
+.Section5 {
+  margin-top: 60px;
+}
+
+.head {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+}
+
+.para {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+}
+
+.divs {
+  margin-left: 110px;
+}
+
+.btns {
+  margin-top: 29px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+.btn-set {
+  margin-left: 5px;
+}
+
+.tog {
+  margin-left: -6px;
+}
